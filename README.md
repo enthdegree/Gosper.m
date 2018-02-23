@@ -4,7 +4,7 @@ Big-endian, so the following subsets are ascending:
 
     000 < 001 < 010 < 100 < 011 < 101 < 110 < 111
     
-Implemented using [Gosper's hack](https://en.wikipedia.org/wiki/Combinatorial_number_system#Applications).
+Implemented roughly according to [Gosper's hack](https://en.wikipedia.org/wiki/Combinatorial_number_system#Applications).
     
 #### Input
 
