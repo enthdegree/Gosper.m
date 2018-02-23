@@ -1,4 +1,4 @@
-# gosper.m: Combinatoral Iteration
+# gosper.m: Combinatoral Iteration in Matlab
 Matlab code which, given a binary vector representing a subset, produces the next subset in lexicographical order.
 Big-endian, so the following subsets are ascending:  
 
