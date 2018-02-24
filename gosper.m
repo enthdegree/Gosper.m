@@ -1,12 +1,12 @@
 function v_snew = gosper(v_s)
 %% GOSPER Combinatoral Iteration
 % Given a binary vector representing a subset, return the next subset in
-% lexicographical order. Big-endian, so the following subsets are 
-% ascending: 
+% lexicographical order. Big-endian, so the following subsets are
+% ascending:
 %     000 < 001 < 010 < 100 < 011 < 101 < 110 < 111
 %
 % Input: v_s = Binary row vector with k of n bits set to 1.
-% Output: v_snew = - Next binary vector with k bits set to 1. 
+% Output: v_snew = - Next binary vector with k bits set to 1.
 %                  - If there are none, left, then the first binary vector
 %                    with (k+1) bits set to 1.
 %                  - If k=n, then the 0 vector.
