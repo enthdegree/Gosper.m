@@ -15,3 +15,6 @@ Implemented roughly according to [Gosper's hack](https://en.wikipedia.org/wiki/C
              - If there are none, left, then the first binary vector
                with (k+1) bits set to 1.
              - If k=n, then the 0 vector.
+----
+
+Also includes `n2set.m` and `set2n.m` which convert between a set and its place in the lexicographical ordering.
