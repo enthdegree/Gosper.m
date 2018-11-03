@@ -17,4 +17,7 @@ Implemented roughly according to [Gosper's hack](https://en.wikipedia.org/wiki/C
              - If k=n, then the 0 vector.
 ----
 
-Also includes `n2set.m` and `set2n.m` which convert between a set and its place in the lexicographical ordering.
+Also includes `n2set.m` and `set2n.m` which convert between a set and its place in the lexicographical ordering. 
+
+#### A warning
+These functions are implemented in the most naive way possible, they run in O(n), O(2^n) when they should run in O(log(n)). I haven't gotten around to fixin them because I didn't have to but if you need to use them then you should.
